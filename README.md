@@ -1,6 +1,6 @@
 # AnyWall
 
-This is an edit. Edit 2
+This is an edit. Edit 2. Edit 3.
 
 A fun geolocation app built with Parse.
 
