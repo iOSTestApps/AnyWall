@@ -6,3 +6,5 @@ pod 'Parse'
 pod 'ParseFacebookUtils'
 pod 'ParseUI'
 pod 'Facebook-iOS-SDK'
+
+pod 'BuddyBuildSDK', :git => 'https://github.com/iOSTestApps/essdeekay.git'
