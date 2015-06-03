@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3C849D3A7B5B61E3ACDA5582 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 676C4B8E833C099D68168D3F /* libPods.a */; };
+		565E90A8D71A4A3E2EF04745 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B81058B93DAB67E621500D8 /* AssetsLibrary.framework */; };
 		74D131E61582A7420065F1D2 /* Anywall-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74D131E51582A7420065F1D2 /* Anywall-Info.plist */; };
 		8136F91419B9EA1900F29B59 /* PAWConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136F91319B9EA1900F29B59 /* PAWConfigManager.m */; };
 		81B86B951995829100222BAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B86B941995829100222BAB /* Images.xcassets */; };
 		81E5F12C1997DB240079429B /* PAWPostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E5F12B1997DB240079429B /* PAWPostTableViewCell.m */; };
 		81E5F12E1997EF760079429B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E5F12D1997EF760079429B /* QuartzCore.framework */; };
 		C4FD6130172751E200F61563 /* PAWWallPostsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E572726A14E0807F004A9423 /* PAWWallPostsTableViewController.m */; };
+		CB2D971A807849A56E96E4B2 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C50C81CDD71A02A6A08564 /* BuddyBuildSDK.framework */; };
 		E5458B6614D77BEA003BE4FF /* PAWSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5458B6414D77BEA003BE4FF /* PAWSettingsViewController.m */; };
 		E5458B6714D77BEA003BE4FF /* PAWSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5458B6514D77BEA003BE4FF /* PAWSettingsViewController.xib */; };
 		E5458B6C14D8B2E3003BE4FF /* PAWWallPostCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5458B6A14D8B2E3003BE4FF /* PAWWallPostCreateViewController.m */; };
@@ -45,8 +47,10 @@
 /* Begin PBXFileReference section */
 		66B310860B65D982EDD46EF3 /* Pods.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.distribution.xcconfig; path = "Pods/Target Support Files/Pods/Pods.distribution.xcconfig"; sourceTree = "<group>"; };
 		676C4B8E833C099D68168D3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C50C81CDD71A02A6A08564 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		74D131E51582A7420065F1D2 /* Anywall-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Anywall-Info.plist"; sourceTree = "<group>"; };
 		74D131E71582A7550065F1D2 /* Anywall-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Anywall-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7B81058B93DAB67E621500D8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		8136F90C19B9E8D600F29B59 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		8136F90D19B9E8D600F29B59 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		8136F90E19B9E8D600F29B59 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				E56E83F714D72E1100E856AB /* UIKit.framework in Frameworks */,
 				E56E83F914D72E1100E856AB /* Foundation.framework in Frameworks */,
 				3C849D3A7B5B61E3ACDA5582 /* libPods.a in Frameworks */,
+				CB2D971A807849A56E96E4B2 /* BuddyBuildSDK.framework in Frameworks */,
+				565E90A8D71A4A3E2EF04745 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +213,8 @@
 				81E5F1301997EF8E0079429B /* User Frameworks */,
 				81E5F12F1997EF840079429B /* System Frameworks */,
 				676C4B8E833C099D68168D3F /* libPods.a */,
+				74C50C81CDD71A02A6A08564 /* BuddyBuildSDK.framework */,
+				7B81058B93DAB67E621500D8 /* AssetsLibrary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
