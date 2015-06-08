@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3C849D3A7B5B61E3ACDA5582 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 676C4B8E833C099D68168D3F /* libPods.a */; };
+		58401CAD59847F8AA6D21DCB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF16F5E73A1554AF68154744 /* CoreText.framework */; };
+		6C496F1BC84C3B8626427833 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C00CC362AAFA1E7B9A734B /* AssetsLibrary.framework */; };
+		717D21B2918C5A0F35BC343C /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D32248FA9A27B9553C9885D /* BuddyBuildSDK.framework */; };
 		74D131E61582A7420065F1D2 /* Anywall-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74D131E51582A7420065F1D2 /* Anywall-Info.plist */; };
 		8136F91419B9EA1900F29B59 /* PAWConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8136F91319B9EA1900F29B59 /* PAWConfigManager.m */; };
 		81B86B951995829100222BAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B86B941995829100222BAB /* Images.xcassets */; };
@@ -47,6 +50,7 @@
 		676C4B8E833C099D68168D3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D131E51582A7420065F1D2 /* Anywall-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Anywall-Info.plist"; sourceTree = "<group>"; };
 		74D131E71582A7550065F1D2 /* Anywall-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "Anywall-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7D32248FA9A27B9553C9885D /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		8136F90C19B9E8D600F29B59 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		8136F90D19B9E8D600F29B59 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		8136F90E19B9E8D600F29B59 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 		A29C949A5C0DC051974CC99F /* Pods.ad-hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods.ad-hoc.xcconfig"; path = "Pods/Target Support Files/Pods/Pods.ad-hoc.xcconfig"; sourceTree = "<group>"; };
 		C00178132924F2DA1350B75A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C3C88371E22C3F80750D6E3D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D7C00CC362AAFA1E7B9A734B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		E5458B6314D77BEA003BE4FF /* PAWSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PAWSettingsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E5458B6414D77BEA003BE4FF /* PAWSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PAWSettingsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E5458B6514D77BEA003BE4FF /* PAWSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAWSettingsViewController.xib; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 		E5E3D1EF14DA20210074DA18 /* PAWNewUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PAWNewUserViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		E5E3D1F014DA20210074DA18 /* PAWNewUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PAWNewUserViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		E5E3D1F114DA20210074DA18 /* PAWNewUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PAWNewUserViewController.xib; sourceTree = "<group>"; };
+		EF16F5E73A1554AF68154744 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 				E56E83F714D72E1100E856AB /* UIKit.framework in Frameworks */,
 				E56E83F914D72E1100E856AB /* Foundation.framework in Frameworks */,
 				3C849D3A7B5B61E3ACDA5582 /* libPods.a in Frameworks */,
+				717D21B2918C5A0F35BC343C /* BuddyBuildSDK.framework in Frameworks */,
+				6C496F1BC84C3B8626427833 /* AssetsLibrary.framework in Frameworks */,
+				58401CAD59847F8AA6D21DCB /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +216,9 @@
 				81E5F1301997EF8E0079429B /* User Frameworks */,
 				81E5F12F1997EF840079429B /* System Frameworks */,
 				676C4B8E833C099D68168D3F /* libPods.a */,
+				7D32248FA9A27B9553C9885D /* BuddyBuildSDK.framework */,
+				D7C00CC362AAFA1E7B9A734B /* AssetsLibrary.framework */,
+				EF16F5E73A1554AF68154744 /* CoreText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
